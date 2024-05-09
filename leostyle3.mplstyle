@@ -1,0 +1,49 @@
+patch.linewidth: 0.5
+patch.facecolor: FFA500 # orange
+patch.edgecolor: EEEEEE
+patch.antialiased: True
+
+font.size: 20.0
+
+figure.figsize: 9.6, 6 #9.6 ,6
+figure.titlesize: 20
+
+lines.linewidth: 2
+
+axes.facecolor: E5E5E5
+axes.edgecolor: black
+axes.spines.top: False
+axes.spines.right: False
+axes.linewidth: 1
+axes.grid: True
+axes.titlesize: 20
+axes.labelsize: 20
+axes.labelcolor: black
+axes.axisbelow: True       # grid/ticks are below elements (e.g., lines, text)
+axes.xmargin: 0
+axes.labelpad: 15
+
+axes.prop_cycle: cycler('color', ['FFB640', 'FF9D00', '229CFF', '014F9B', '94BF73', '739559']) + cycler('linestyle', ['solid', 'dotted', 'solid', 'dotted', 'solid', 'dotted'])
+                   # 014F9B : dark blue
+                   # 229CFF : blue
+                   # 739559 : dark green
+                   # 94BF73 : green
+                   # FF9D00 : dark orange
+                   # FFB640 : orange
+
+xtick.color: black
+xtick.direction: out
+xtick.labelsize: 15
+
+ytick.color: black
+ytick.direction: out
+ytick.labelsize: 15
+
+grid.color: white
+grid.linestyle: -    # solid line
+
+figure.facecolor: white
+figure.edgecolor: 0.50
+figure.autolayout: True
+
+legend.fontsize: 20
